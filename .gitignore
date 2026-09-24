@@ -1,0 +1,17 @@
+# Executables and Object Files
+*.exe
+*.out
+*.o
+*.obj
+*.app
+
+# IDE & Editor Folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Build Directories
+build/
+bin/
