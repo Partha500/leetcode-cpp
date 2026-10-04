@@ -22,6 +22,7 @@ leetcode-cpp/
 │   ├── 1D_to_2D_array.cpp
 │   └── diagonal_matrix.cpp
 ├── STRING/
+│   ├── 125_valid_palindrome.cpp
 │   ├── 151_Revese_string.cpp
 │   ├── 242_valid_anagram1.cpp
 │   └── 242_valid_anagram2.cpp
@@ -37,6 +38,7 @@ leetcode-cpp/
 | :-: | :--- | :--- | :-: | :-: | :-: | :-: | :-: |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | `ARRAY-4` | 🟡 Medium | [spiral_matrix.cpp](ARRAY-4/spiral_matrix.cpp) | $\mathcal{O}(M \times N)$ | $\mathcal{O}(1)$ | Completed |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | `ARRAY -1` | 🟢 Easy | [stockbuy_sell.cpp](ARRAY%20-1/stockbuy_sell.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | Completed |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | `STRING` | 🟢 Easy | [125_valid_palindrome.cpp](STRING/125_valid_palindrome.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | Completed |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | `ARRAY -1` | 🟢 Easy | [single_number.cpp](ARRAY%20-1/single_number.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | Completed |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | `STRING` | 🟡 Medium | [151_Revese_string.cpp](STRING/151_Revese_string.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | Completed |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | `ARRAY -1` | 🟢 Easy | [majority_element.cpp](ARRAY%20-1/majority_element.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | Completed |
