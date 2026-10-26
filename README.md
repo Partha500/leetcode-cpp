@@ -20,6 +20,8 @@ leetcode-cpp/
 │   └── spiral_matrix.cpp
 ├── Miscellaneous/
 │   ├── 1D_to_2D_array.cpp
+│   ├── 167_twosum_2_input arraysorted.cpp
+│   ├── 645_set_mismatch.cpp
 │   └── diagonal_matrix.cpp
 ├── STRING/
 │   ├── 125_valid_palindrome.cpp
@@ -36,17 +38,19 @@ leetcode-cpp/
 
 | # | Problem Title | Sheet Module | Difficulty | Solution | Time Complexity | Space Complexity | Status |
 | :-: | :--- | :--- | :-: | :-: | :-: | :-: | :-: |
-| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | `ARRAY-4` | 🟡 Medium | [spiral_matrix.cpp](ARRAY-4/spiral_matrix.cpp) | $\mathcal{O}(M \times N)$ | $\mathcal{O}(1)$ | Completed |
-| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | `ARRAY -1` | 🟢 Easy | [stockbuy_sell.cpp](ARRAY%20-1/stockbuy_sell.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | Completed |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | `STRING` | 🟢 Easy | [125_valid_palindrome.cpp](STRING/125_valid_palindrome.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | Completed |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | `ARRAY -1` | 🟢 Easy | [single_number.cpp](ARRAY%20-1/single_number.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | Completed |
-| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | `STRING` | 🟡 Medium | [151_Revese_string.cpp](STRING/151_Revese_string.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | Completed |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | `ARRAY -1` | 🟢 Easy | [majority_element.cpp](ARRAY%20-1/majority_element.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | Completed |
-| 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | `ARRAY -1` | 🟡 Medium | [majority_element2.cpp](ARRAY%20-1/majority_element2.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | Completed |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | `STRING` | 🟢 Easy | [242_valid_anagram1.cpp](STRING/242_valid_anagram1.cpp), [242_valid_anagram2.cpp](STRING/242_valid_anagram2.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | Completed |
-| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | `Miscellaneous` | 🟢 Easy | [diagonal_matrix.cpp](Miscellaneous/diagonal_matrix.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | Completed |
-| 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | `Miscellaneous` | 🟢 Easy | [1D_to_2D_array.cpp](Miscellaneous/1D_to_2D_array.cpp) | $\mathcal{O}(M \times N)$ | $\mathcal{O}(1)$ | Completed |
-| 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | `ARRAY -1` | 🟢 Easy | [Repeat_missinn_no.cpp](ARRAY%20-1/Repeat_missinn_no.cpp) | $\mathcal{O}(N^2)$ | $\mathcal{O}(N^2)$ | Completed |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | `ARRAY-4` | 🟡 Medium | [spiral_matrix.cpp](ARRAY-4/spiral_matrix.cpp) | $\mathcal{O}(M \times N)$ | $\mathcal{O}(1)$ | ✅ Completed |
+| 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | `ARRAY -1` | 🟢 Easy | [stockbuy_sell.cpp](ARRAY%20-1/stockbuy_sell.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | ✅ Completed |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | `STRING` | 🟢 Easy | [125_valid_palindrome.cpp](STRING/125_valid_palindrome.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | ✅ Completed |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | `ARRAY -1` | 🟢 Easy | [single_number.cpp](ARRAY%20-1/single_number.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | ✅ Completed |
+| 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | `STRING` | 🟡 Medium | [151_Revese_string.cpp](STRING/151_Revese_string.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | ✅ Completed |
+| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | `Miscellaneous` | 🟡 Medium | [167_twosum_2_input arraysorted.cpp](Miscellaneous/167_twosum_2_input%20arraysorted.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | ✅ Completed |
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | `ARRAY -1` | 🟢 Easy | [majority_element.cpp](ARRAY%20-1/majority_element.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | ✅ Completed |
+| 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | `ARRAY -1` | 🟡 Medium | [majority_element2.cpp](ARRAY%20-1/majority_element2.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | ✅ Completed |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | `STRING` | 🟢 Easy | [242_valid_anagram1.cpp](STRING/242_valid_anagram1.cpp), [242_valid_anagram2.cpp](STRING/242_valid_anagram2.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | ✅ Completed |
+| 645 | [Set Mismatch](https://leetcode.com/problems/set-mismatch/) | `Miscellaneous` | 🟢 Easy | [645_set_mismatch.cpp](Miscellaneous/645_set_mismatch.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | ✅ Completed |
+| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | `Miscellaneous` | 🟢 Easy | [diagonal_matrix.cpp](Miscellaneous/diagonal_matrix.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | ✅ Completed |
+| 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | `Miscellaneous` | 🟢 Easy | [1D_to_2D_array.cpp](Miscellaneous/1D_to_2D_array.cpp) | $\mathcal{O}(M \times N)$ | $\mathcal{O}(1)$ | ✅ Completed |
+| 2965 | [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/) | `ARRAY -1` | 🟢 Easy | [Repeat_missinn_no.cpp](ARRAY%20-1/Repeat_missinn_no.cpp) | $\mathcal{O}(N^2)$ | $\mathcal{O}(N^2)$ | ✅ Completed |
 
 ---
 
