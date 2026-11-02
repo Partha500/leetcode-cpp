@@ -6,7 +6,7 @@
 
 ## 📁 Repository Architecture
 
-The repository is structured following the DSA Sheet modules (`ARRAY -1`, `ARRAY-4`, `Miscellaneous`, `STRING`):
+The repository is structured following the DSA Sheet modules (`ARRAY -1`, `2-ARRAY-2`, `ARRAY-4`, `Miscellaneous`, `STRING`):
 
 ```
 leetcode-cpp/
@@ -16,10 +16,13 @@ leetcode-cpp/
 │   ├── Repeat_missinn_no.cpp
 │   ├── single_number.cpp
 │   └── stockbuy_sell.cpp
+├── 2-ARRAY-2/
+│   └── 3Sum.cpp
 ├── ARRAY-4/
 │   └── spiral_matrix.cpp
 ├── Miscellaneous/
 │   ├── 1D_to_2D_array.cpp
+│   ├── 26_removing_duplicate_froma_sorted_array.cpp
 │   ├── 167_twosum_2_input arraysorted.cpp
 │   ├── 645_set_mismatch.cpp
 │   └── diagonal_matrix.cpp
@@ -38,6 +41,8 @@ leetcode-cpp/
 
 | # | Problem Title | Sheet Module | Difficulty | Solution | Time Complexity | Space Complexity | Status |
 | :-: | :--- | :--- | :-: | :-: | :-: | :-: | :-: |
+| 15 | [3Sum](https://leetcode.com/problems/3sum/) | `2-ARRAY-2` | 🟡 Medium | [3Sum.cpp](2-ARRAY-2/3Sum.cpp) | $\mathcal{O}(N^2)$ | $\mathcal{O}(1)$ | ✅ Completed |
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | `Miscellaneous` | 🟢 Easy | [26_removing_duplicate_froma_sorted_array.cpp](Miscellaneous/26_removing_duplicate_froma_sorted_array.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | ✅ Completed |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | `ARRAY-4` | 🟡 Medium | [spiral_matrix.cpp](ARRAY-4/spiral_matrix.cpp) | $\mathcal{O}(M \times N)$ | $\mathcal{O}(1)$ | ✅ Completed |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | `ARRAY -1` | 🟢 Easy | [stockbuy_sell.cpp](ARRAY%20-1/stockbuy_sell.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | ✅ Completed |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | `STRING` | 🟢 Easy | [125_valid_palindrome.cpp](STRING/125_valid_palindrome.cpp) | $\mathcal{O}(N)$ | $\mathcal{O}(1)$ | ✅ Completed |
@@ -59,8 +64,8 @@ leetcode-cpp/
 To compile and test any solution locally using standard C++:
 
 ```bash
-# Example: Compile Spiral Matrix
-g++ -std=c++17 -O2 "ARRAY-4/spiral_matrix.cpp" -o solution
+# Example: Compile 3Sum
+g++ -std=c++17 -O2 "2-ARRAY-2/3Sum.cpp" -o solution
 ./solution
 ```
 
@@ -68,7 +73,7 @@ g++ -std=c++17 -O2 "ARRAY-4/spiral_matrix.cpp" -o solution
 
 ## 📝 Notes & Conventions
 - Maintained alongside the **Apna College Sigma** DSA program sheet.
-- Each module folder (`ARRAY -1`, `ARRAY-4`, `Miscellaneous`) tracks topic-wise problem sets.
+- Each module folder (`ARRAY -1`, `2-ARRAY-2`, `ARRAY-4`, `Miscellaneous`) tracks topic-wise problem sets.
 
 ---
 
